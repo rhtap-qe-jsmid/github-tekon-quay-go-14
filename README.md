@@ -11,7 +11,7 @@ Before you begin creating an application with this `devfile` code sample, it's h
 2. The [`docker/Dockerfile`](https://github.com/redhat-appstudio/devfile-sample-go-dance/blob/main/docker/Dockerfile) contains the instructions you need to build the code sample as a container image.
 3. The `devfile.yaml` [`kubernetes-deploy` component](https://github.com/redhat-appstudio/devfile-sample-go-dance/blob/main/devfile.yaml#L26-L38) points to a `deploy.yaml` file that contains instructions for deploying the built container image.
 4. The `devfile.yaml` [`deploy` command](https://github.com/redhat-appstudio/devfile-sample-go-dance/blob/main/devfile.yaml#L40-L53) completes the [outerloop](https://devfile.io/docs/2.2.0/innerloop-vs-outerloop) deployment phase by pointing to the `image-build` and `kubernetes-deploy` components to create your application.
-
+ 
 ### Additional resources
 * For more information about Go, see [go.dev](https://go.dev/).
 * For more information about devfiles, see [Devfile.io](https://devfile.io/).
